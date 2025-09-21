@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Logo -->
+    <img src="{{ url_for('static', filename='images/cropped_circle_image (1).png') }}" alt="Logo" width="150" height="auto">
+
+    <h1>Welcome to the Home Page</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="http://127.0.0.1:5000">Home</a>
+        <a href="http://127.0.0.1:5000/about">About</a>
+        <a href="http://127.0.0.1:5000/choice">Choice</a>
+        <a href="http://127.0.0.1:5000/login">Login</a>
+        <a href="http://127.0.0.1:5000/mood">Mood</a>
+        <a href="http://127.0.0.1:5000/restaurants">Restaurants</a>
+        <a href="http://127.0.0.1:5000/spots">Spots</a>
+    </nav>
+</body>
+</html>
